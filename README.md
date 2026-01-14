@@ -4,8 +4,6 @@ Geoprocessing tool that identifies the downstream path along a trace network fro
 ## tool usage
 The tool requires one or more polygon feature datasets that define starting locations, a stream network, and a trace network with enforced topology derived from the stream network. The tool produces two line feature class outputs. The first output preserves network topology and is intended for further analysis where maintained connectivity and/or flow direction are required. The second output aggregates edge geometry and is intended for visualization purposes only.
 
-## tool parameters
-
 ## related publication & case study
 
 ## credits
