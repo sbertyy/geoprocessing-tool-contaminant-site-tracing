@@ -6,6 +6,19 @@ The tool requires one or more polygon feature datasets that define starting loca
 
 ## related publication & case study
 
+## license
+This repository is licensed under the
+**Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+This license applies to:
+- The ArcGIS Pro ModelBuilder geoprocessing tool
+- Associated workflow logic and configuration
+- Documentation and example data (unless otherwise noted)
+
+Users are free to use, modify, and redistribute the materials with appropriate attribution.
+
+See the [LICENSE](LICENSE) file for full license text.
+
 ## credits
 Developed by Siona Roberts, Department of Geography, University of Minnesota Duluth & Michael D. Knudson, Department of Geography and GIS, Fond du Lac Tribal and Community College.
 
