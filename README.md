@@ -13,7 +13,7 @@ This repository is licensed under the
 This license applies to:
 - The ArcGIS Pro ModelBuilder geoprocessing tool
 - Associated workflow logic and configuration
-- Documentation and example data (unless otherwise noted)
+- Documentation
 
 Users are free to use, modify, and redistribute the materials with appropriate attribution.
 
