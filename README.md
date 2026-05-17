@@ -1,8 +1,13 @@
 # geoprocessing-tool-contaminant-site-tracing
 Geoprocessing tool that identifies the downstream path along a trace network from an area of interest. 
 
+## Software Requirements
+For successful use of the tool, an ArcGIS Pro v.3.0 license (or newer) is required. No additional ArcGIS Pro extensions are needed
+
 ## tool usage
 The tool requires one or more polygon feature datasets that define starting locations, a stream network, and a trace network with enforced topology derived from the stream network. The tool produces two line feature class outputs. The first output preserves network topology and is intended for further analysis where maintained connectivity and/or flow direction are required. The second output aggregates edge geometry and is intended for visualization purposes only.
+
+The toolbox includes two geoprocessing tools created via ModelBuilder. You will use the Contamination Site Tracing tool to carry out the analysis. The AOI_Merge tool is an intermediary step that runs within the Contamination Site Tracing tool. DO NOT move or delete the AOI Merge tool from the toolbox, otherwise the Contamination Site Tracing tool will not work.
 
 ## related publication & case study
 
