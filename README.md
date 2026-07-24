@@ -2,7 +2,12 @@
 Geoprocessing tool that identifies the downstream path along a trace network from an area of interest. 
 
 ## Software Requirements
-For successful use of the tool, an ArcGIS Pro v.3.0 license (or newer) is required. No additional ArcGIS Pro extensions are needed
+For successful use of the tool, an ArcGIS Pro v.3.0 license (or newer) is required. No additional ArcGIS Pro extensions are needed.
+
+## Sample Dataset
+To try out the tool without creating your own inputs, sample data is packaged in the Assets section of each release as sampledata.zip. Extracting this file provides a folder containing two geodatabases:
+- sampledata.gdb: Contains the stream network & area of interest (AOI) boundary
+- sampletracenetwork.gdb: Contains the trace network
 
 ## tool usage
 The tool requires one or more polygon feature datasets that define starting locations, a stream network, and a trace network with enforced topology derived from the stream network. The tool produces two line feature class outputs. The first output preserves network topology and is intended for further analysis where maintained connectivity and/or flow direction are required. The second output aggregates edge geometry and is intended for visualization purposes only.
