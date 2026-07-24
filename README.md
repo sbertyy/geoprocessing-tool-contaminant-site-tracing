@@ -5,7 +5,7 @@ Geoprocessing tool that identifies the downstream path along a trace network fro
 For successful use of the tool, an ArcGIS Pro v.3.0 license (or newer) is required. No additional ArcGIS Pro extensions are needed.
 
 ## Sample Dataset
-To try out the tool without creating your own inputs, sample data is packaged in the Assets section of each release as sampledata.zip. Extracting this file provides a folder containing two geodatabases:
+To try out the tool without creating your own inputs, sample data is packaged in the Assets section of each [release](https://github.com/sbertyy/geoprocessing-tool-contaminant-site-tracing/releases/latest) as sampledata.zip. Extracting this file provides a folder containing two geodatabases:
 - sampledata.gdb: Contains the stream network & area of interest (AOI) boundary
 - sampletracenetwork.gdb: Contains the trace network
 
